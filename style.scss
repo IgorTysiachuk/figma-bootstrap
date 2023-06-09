@@ -1,0 +1,125 @@
+.header {
+    height: 83px;
+    display: flex;
+    align-items: center;
+    &_divuser {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &_img {
+            height: 83px;
+            width: 83px;
+        }
+        &_p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #000000;
+            margin-top: 10px;
+
+        }
+    }
+    &_logo  {
+        width: 83px;
+        height: 83px;
+    }
+    &_nav {
+        height: 58px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_a {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+}
+
+.tablew {
+    height: 586px;
+    width: 160px;
+    height: 586px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 9px;
+    &_part {
+        width: 160px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #00000075;
+        user-select: none;
+        &:hover {
+            transition-duration: 0.4s;
+            
+            background: #d8d8d8;
+        }
+    }
+}
+.blockimg {
+    margin-left: 29px;
+    width: 445px;
+    &_img {
+        width: 445px;
+        height: 236px;
+        background-image: url(./img/part2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.global {
+    display: flex;
+    width: 100%;
+    margin-top: 61px;
+    &_block {
+        width: 255px;
+        height: 586px;
+        background: #00000011;
+        margin-left: 30px;
+    }
+}
+.tops {
+    overflow: hidden;
+    width: 445px;
+    height: 329px;
+}
+.imgadd {
+    width: 445px;
+    height: 329px;
+}
+.imgadd1 {
+    background-image: url(./img/part1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.imgadd2 {
+    background-image: url(./img/part2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.imgadd3 {
+    background-image: url(./img/part3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.meadd {
+    margin-top: 21px;
+}
+.btns {
+    &:hover {
+        background-color: #000000;
+    }
+}
